@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    background-color: #0C0C0C;
+    color:white;
+}
+
+.account {
+    background-color: #191919; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+  
+.account li {
+    position:relative;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+li a{
+    color: purple;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover{
+    background-color: #0C0C0C;
+    text-decoration: none;
+    color:purple;
+}
