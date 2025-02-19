@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    margin:0;
+    color:aliceblue;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin:auto;
+    width:70%;
+    padding:16px;
+    background-color:#191919;
+    box-shadow: 10px 10px 20px 0 rebeccapurple;
+}
+
+input[type="text"],input[type="password"]{
+    width:99%;
+    padding:8px;
+    margin:5px 0 8px 0;
+    display:inline-block;
+    border:none;
+    background-color: aliceblue;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    background-color: #ddd;
+    outline:none;
+}
+
+#rgbtn{
+    background-color: darkorchid;
+    color:white;
+    width:99%;
+    padding:10px;
+    margin:auto;
+    border:none;
+    opacity:0.8;
+    cursor: pointer;
+}
+#rgbtn:hover{
+    background-color: darkorchid;
+    opacity: 1;
+}
